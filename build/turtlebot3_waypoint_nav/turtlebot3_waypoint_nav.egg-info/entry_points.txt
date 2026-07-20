@@ -1,0 +1,5 @@
+[console_scripts]
+waypoint_navigator = turtlebot3_waypoint_nav.waypoint_navigator:main
+waypoint_navigator_tb3_1 = turtlebot3_waypoint_nav.waypoint_navigator_tb3_1:main
+waypoint_navigator_tb3_2 = turtlebot3_waypoint_nav.waypoint_navigator_tb3_2:main
+

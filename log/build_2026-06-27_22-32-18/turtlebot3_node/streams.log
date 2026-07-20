@@ -1,0 +1,85 @@
+[0.021s] Invoking command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shiv/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiv/turtlebot3_ws/install/turtlebot3_node
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.402s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.732s] -- Found dynamixel_sdk: 4.0.5 (/home/shiv/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.736s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.783s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.789s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.801s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found message_filters: 4.3.16 (/opt/ros/humble/share/message_filters/cmake)
+[0.931s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.933s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.969s] -- Looking for pthread.h
+[1.063s] -- Looking for pthread.h - found
+[1.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.163s] -- Found Threads: TRUE  
+[1.216s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.236s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.257s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.270s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.290s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.397s] -- Found turtlebot3_msgs: 2.4.0 (/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.514s] -- Configuring done
+[1.540s] -- Generating done
+[1.547s] -- Build files have been written to: /home/shiv/turtlebot3_ws/build/turtlebot3_node
+[1.562s] Invoked command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shiv/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiv/turtlebot3_ws/install/turtlebot3_node
+[1.564s] Invoking command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiv/turtlebot3_ws/build/turtlebot3_node -- -j16 -l16
+[1.640s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.641s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.641s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.641s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.642s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.642s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.643s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.643s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.644s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.646s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.648s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[20.898s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[21.569s] [ 85%] Built target turtlebot3_node_lib
+[21.599s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[26.228s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[28.473s] [100%] Built target turtlebot3_ros
+[28.489s] Invoked command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiv/turtlebot3_ws/build/turtlebot3_node -- -j16 -l16
+[28.492s] Invoking command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shiv/turtlebot3_ws/build/turtlebot3_node
+[28.502s] -- Install configuration: ""
+[28.504s] -- Execute custom install script
+[28.505s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[28.518s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[28.529s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[28.540s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[28.551s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[28.564s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[28.575s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[28.586s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[28.598s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[28.609s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[28.622s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[28.634s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[28.649s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[28.660s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[28.672s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[28.685s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[28.700s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.711s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.724s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[28.737s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[28.751s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[28.769s] Invoked command in '/home/shiv/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs:/home/shiv/turtlebot3_ws/install/dynamixel_sdk:/home/shiv/turtlebot3_ws/install/turtlebot3_simulations:/home/shiv/turtlebot3_ws/install/turtlebot3_fake_node:/home/shiv/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/shiv/turtlebot3_ws/install/turtlebot3_gazebo:/home/shiv/turtlebot3_ws/install/slam_toolbox:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/shiv/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/shiv/turtlebot3_ws/install/dynamixel_sdk/lib:/home/shiv/turtlebot3_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PS1=📦[\u@ros-humble \W]$ PYTHONPATH=/home/shiv/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shiv/turtlebot3_ws/build/turtlebot3_node

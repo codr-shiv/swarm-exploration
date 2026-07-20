@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/shiv/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav:/home/shiv/turtlebot3_ws/install/turtlebot3_teleop:/home/shiv/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@ros-humble \W]$ /usr/bin/cmake --build /home/shiv/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[0.033s] Invoked command in '/home/shiv/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav:/home/shiv/turtlebot3_ws/install/turtlebot3_teleop:/home/shiv/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@ros-humble \W]$ /usr/bin/cmake --build /home/shiv/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[0.039s] Invoking command in '/home/shiv/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav:/home/shiv/turtlebot3_ws/install/turtlebot3_teleop:/home/shiv/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@ros-humble \W]$ /usr/bin/cmake --install /home/shiv/turtlebot3_ws/build/turtlebot3_cartographer
+[0.043s] -- Install configuration: ""
+[0.043s] -- Execute custom install script
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/tb3_1_lds_2d.lua
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/tb3_2_lds_2d.lua
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer_tb3_1.launch.py
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer_tb3_2.launch.py
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.043s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.044s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.044s] -- Symlinking: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.049s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.051s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.051s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.051s] -- Up-to-date symlink: /home/shiv/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.052s] Invoked command in '/home/shiv/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav:/home/shiv/turtlebot3_ws/install/turtlebot3_teleop:/home/shiv/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@ros-humble \W]$ /usr/bin/cmake --install /home/shiv/turtlebot3_ws/build/turtlebot3_cartographer

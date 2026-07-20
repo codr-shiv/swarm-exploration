@@ -1,0 +1,23 @@
+[package]
+name = "slam_toolbox"
+version = "2.6.10"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = "0.6"
+serde = { version = "1", optional = true, features = ["derive"] }
+serde-big-array = { version = "0.5.1", optional = true }
+
+# ROS Dependencies
+std_msgs = "*"
+builtin_interfaces = "*"
+nav_msgs = "*"
+geometry_msgs = "*"
+sensor_msgs = "*"
+visualization_msgs = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'builtin_interfaces/serde', 'nav_msgs/serde', 'geometry_msgs/serde', 'sensor_msgs/serde', 'visualization_msgs/serde']
+
+[package.metadata.ros-env]
+include = true
