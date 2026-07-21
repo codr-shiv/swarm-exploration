@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing turtlebot3_waypoint_nav.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_waypoint_nav.egg-info/dependency_links.txt
+writing entry points to turtlebot3_waypoint_nav.egg-info/entry_points.txt
+writing requirements to turtlebot3_waypoint_nav.egg-info/requires.txt
+writing top-level names to turtlebot3_waypoint_nav.egg-info/top_level.txt
+reading manifest file 'turtlebot3_waypoint_nav.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_waypoint_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav/lib/python3.10/site-packages/turtlebot3-waypoint-nav.egg-link (link to .)
+Installing waypoint_navigator script to /home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav/lib/turtlebot3_waypoint_nav
+Installing waypoint_navigator_tb3_1 script to /home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav/lib/turtlebot3_waypoint_nav
+Installing waypoint_navigator_tb3_2 script to /home/shiv/turtlebot3_ws/install/turtlebot3_waypoint_nav/lib/turtlebot3_waypoint_nav
+
+Installed /home/shiv/turtlebot3_ws/build/turtlebot3_waypoint_nav
+running symlink_data
